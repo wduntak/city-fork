@@ -1,4 +1,4 @@
-Meteor.publish('nerbyPlaces', function(bottomLeft, topRight){
+Meteor.publish('nearbyPlaces', function(bottomLeft, topRight){
 	if(!bottomLeft && !topRight) {
 		return [];
 	}
